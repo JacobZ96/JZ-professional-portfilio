@@ -1,7 +1,16 @@
 *{
     background-color:dimgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    color: coral;
+}
+h2{
+    color:coral;
+}
 

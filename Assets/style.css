@@ -2,15 +2,32 @@
     background-color:dimgray;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+:root{
+    --heading-color: coral;
+}
 
 .images{
     display: flex;
     flex-wrap: wrap;
 }
+img{
+    height: 200px;
+    width: 200px;
+}
+
 h1{
-    color: coral;
+    color:var(--heading-color)
 }
 h2{
-    color:coral;
+    color:var(--heading-color)
+}
+
+ul{
+   list-style-type: none; 
+}
+
+p{
+    font-size: large;
+    color: snow;
 }
 

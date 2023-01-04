@@ -6,7 +6,7 @@
     --heading-color: coral;
 }
 
-.images {
+.images { /* makes class=images a flex container */
     display: flex;
     flex-wrap: wrap;
 }
@@ -19,45 +19,45 @@ img { /* used to format all images on page */
     border-color: black;
 }
 
-h1 {
+h1 { /* styling for header h1 */ 
     color:var(--heading-color);
     font-size: 50px;
     text-decoration: underline;
     text-align: center;
 }
-h2 {
+h2 { /* styling for headers h2 */ 
     color:var(--heading-color);
     text-decoration: underline;
 
 }
 
-ul {
+ul { /* styling for unordered list sections of html */ 
    list-style-type: none;
    display: inline-flex;
    flex-wrap: nowrap;
 }
 
-p {
+p { /* styling for paragraph section of page */
     font-size: large;
     color: snow;
 }
 
-.contact li {
+.contact li { /* styling for list items in class=contact */
     margin-left: 30px;
     text-indent: 150px;
     color: aqua;
 }
 
-.links li {
+.links li { /* styling for list items in class=links */ 
     margin-left: 30px;
     text-indent: 900px;
 }
-#cover-image {
+#cover-image { /* styling specifically for id=cover-image image */
     display: block;
-    margin: auto;
     height: 500px;
-    width: 500px;   
+    width: 1000px;   
 }
-#mount-rushmore {
-    
+#mount-rushmore { /* styling specifically for id=mount-rushmore image */
+    height: 450px;
+    width: 1000px;
 }

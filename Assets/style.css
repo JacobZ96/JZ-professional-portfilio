@@ -11,6 +11,7 @@
     flex-wrap: wrap;
 }
 img { /* used to format all images on page */
+    display: block;
     height: 300px;
     width: 350px;
     margin: 30px;
@@ -40,6 +41,7 @@ ul { /* styling for unordered list sections of html */
 p { /* styling for paragraph section of page */
     font-size: large;
     color: snow;
+    text-align: center;
 }
 
 .contact li { /* styling for list items in class=contact */
@@ -54,10 +56,13 @@ p { /* styling for paragraph section of page */
 }
 #cover-image { /* styling specifically for id=cover-image image */
     display: block;
+    margin: auto;
     height: 500px;
     width: 1000px;   
 }
 #mount-rushmore { /* styling specifically for id=mount-rushmore image */
-    height: 450px;
+    display: block;
+    margin: auto;
+    height: 500px;
     width: 1000px;
 }

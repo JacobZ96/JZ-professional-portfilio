@@ -1,50 +1,63 @@
-*{
+* { /* universal selector */
     background-color:dimgray;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-:root{
+:root { /* components that are used often */
     --heading-color: coral;
 }
 
-.images{
+.images {
     display: flex;
     flex-wrap: wrap;
 }
-img{
+img { /* used to format all images on page */
     height: 300px;
-    width: 300px;
+    width: 350px;
+    margin: 30px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
 }
 
-h1{
+h1 {
     color:var(--heading-color);
     font-size: 50px;
     text-decoration: underline;
     text-align: center;
 }
-h2{
+h2 {
     color:var(--heading-color);
     text-decoration: underline;
 
 }
 
-ul{
+ul {
    list-style-type: none;
    display: inline-flex;
    flex-wrap: nowrap;
 }
 
-p{
+p {
     font-size: large;
     color: snow;
 }
 
 .contact li {
     margin-left: 30px;
-    text-indent: 130px;
+    text-indent: 150px;
     color: aqua;
 }
 
 .links li {
     margin-left: 30px;
     text-indent: 900px;
+}
+#cover-image {
+    display: block;
+    margin: auto;
+    height: 500px;
+    width: 500px;   
+}
+#mount-rushmore {
+    
 }

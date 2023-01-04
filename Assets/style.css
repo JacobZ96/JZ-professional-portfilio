@@ -11,8 +11,8 @@
     flex-wrap: wrap;
 }
 img{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 }
 
 h1{
@@ -24,7 +24,8 @@ h2{
 
 ul{
    list-style-type: none;
-   display: inline-flex; 
+   display: inline-flex;
+   flex-wrap: nowrap;
 }
 
 p{
@@ -32,3 +33,10 @@ p{
     color: snow;
 }
 
+.contact li {
+    margin-left: 30px;
+}
+
+.links li {
+    margin-left: 30px;
+}

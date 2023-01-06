@@ -46,13 +46,13 @@ p { /* styling for paragraph section of page */
 
 .contact li { /* styling for list items in class=contact */
     margin-left: 30px;
-    text-indent: 150px;
+    text-indent: 300px;
     color: aqua;
 }
 
 .links li { /* styling for list items in class=links */ 
     margin-left: 30px;
-    text-indent: 900px;
+    text-indent: 1400px;
 }
 #cover-image { /* styling specifically for id=cover-image image */
     display: block;

@@ -69,3 +69,11 @@ p { /* styling for paragraph section of page */
     height: 650px;
     width: 1500px;
 }
+
+a { /* adding color styling to links on page */
+   color: aqua; 
+}
+
+a:hover { /* adding color styling to links on page */
+    color: crimson;
+}

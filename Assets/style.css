@@ -1,6 +1,6 @@
 * { /* universal selector */
     background-color:dimgray;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 :root { /* components that are used often */
     --heading-color: coral;
@@ -9,7 +9,9 @@
 .images { /* makes class=images a flex container */
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
 img { /* used to format all images on page */
     display: block;
     height: 300px;
@@ -54,15 +56,16 @@ p { /* styling for paragraph section of page */
     margin-left: 30px;
     text-indent: 1400px;
 }
+
 #cover-image { /* styling specifically for id=cover-image image */
     display: block;
     margin: auto;
-    height: 500px;
+    height: 650px;
     width: 1000px;   
 }
 #mount-rushmore { /* styling specifically for id=mount-rushmore image */
     display: block;
     margin: auto;
-    height: 500px;
-    width: 1000px;
+    height: 650px;
+    width: 1500px;
 }

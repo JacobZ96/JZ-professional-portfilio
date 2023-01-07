@@ -26,7 +26,7 @@ AS AN employer
 * THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Live Link
-
+https://jacobz96.github.io/week2-css-portfilio/
 
 ## Screenshot 
 

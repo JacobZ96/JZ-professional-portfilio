@@ -26,3 +26,8 @@ AS AN employer
 * THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Live Link
+
+
+## Screenshot 
+
+![Screenshot of my portfolio webpage](/Assets/images/Whole_page_screenshot.png "screenshot of webpage").
